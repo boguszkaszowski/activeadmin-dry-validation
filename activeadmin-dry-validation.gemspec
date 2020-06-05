@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activerecord", ">= 4.0.0"
   spec.add_dependency "activeadmin"
-  spec.add_runtime_dependency "dry-validation", "~> 0.12", ">= 0.12.0"
+  spec.add_runtime_dependency "dry-validation", "~> 1.4.1", ">= 1.4.1"
 
   spec.add_development_dependency "rspec-rails", "~> 3.7"
   spec.add_development_dependency "database_cleaner", "~> 1.7"
